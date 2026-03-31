@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bisma Zaman — Data Analyst</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Syne:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #f5f2eb;
@@ -28,9 +28,9 @@
   body {
     background: var(--bg);
     color: var(--ink);
-    font-family: 'Syne', sans-serif;
-    font-size: 16.5px;
-    line-height: 1.7;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
     overflow-x: hidden;
   }
   ::-webkit-scrollbar { width: 3px; }
@@ -46,7 +46,7 @@
     border-bottom: 1px solid var(--border);
   }
   .nav-logo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Spectral', serif;
     font-size: 1.15rem;
     letter-spacing: 0.02em;
     color: var(--ink);
@@ -82,7 +82,7 @@
     width: fit-content;
   }
   .hero-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Spectral', serif;
     font-size: clamp(3rem, 5vw, 4.5rem);
     line-height: 1.05;
     letter-spacing: -0.02em;
@@ -100,7 +100,7 @@
     display: flex; gap: 1rem; flex-wrap: wrap;
   }
   .btn {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 12px; font-weight: 600; letter-spacing: 0.1em;
     text-transform: uppercase; text-decoration: none;
     padding: 12px 28px; border-radius: 2px;
@@ -124,7 +124,7 @@
     border-radius: 4px;
   }
   .stat-num {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Spectral', serif;
     font-size: 2.8rem; line-height: 1; color: var(--ink);
     margin-bottom: 0.3rem;
   }
@@ -159,7 +159,7 @@
     font-size: 11px; color: var(--accent); font-weight: 400;
   }
   .section-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Spectral', serif;
     font-size: 2rem; font-weight: 400;
     color: var(--ink); letter-spacing: -0.01em;
   }
@@ -265,7 +265,7 @@
     padding: 1.75rem;
   }
   .edu-degree {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Spectral', serif;
     font-size: 1.15rem; margin-bottom: 0.4rem;
   }
   .edu-uni { font-size: 13px; color: var(--accent); font-weight: 500; margin-bottom: 0.25rem; }
@@ -307,7 +307,7 @@
   .contact-detail-label { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink3); margin-bottom: 2px; }
   .contact-detail-val { font-size: 15px; color: var(--ink2); }
   .contact-msg {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Spectral', serif;
     font-size: 1.8rem; line-height: 1.4;
     font-style: italic;
     color: var(--ink2);
@@ -327,7 +327,7 @@
 
   /* ANIMATIONS */
   .fade-in {
-    opacity: 0; transform: translateY(20px);
+    opacity: 1; transform: translateY(0);
     transition: opacity 0.6s ease, transform 0.6s ease;
   }
   .fade-in.visible { opacity: 1; transform: translateY(0); }
@@ -668,7 +668,7 @@
           <div class="contact-icon">📧</div>
           <div>
             <div class="contact-detail-label">Email</div>
-            <div class="contact-detail-val"><a href="mailto:bismazaman100@gmail.com" style="color:var(--accent);text-decoration:none;">bismazaman100@gmail.com</a></div>
+            <div class="contact-detail-val"><a href="/cdn-cgi/l/email-protection#6b090218060a110a060a055a5b5b2b0c060a020745080406" style="color:var(--accent);text-decoration:none;"><span class="__cf_email__" data-cfemail="016368726c607b606c606f30313141666c60686d2f626e6c">[email&#160;protected]</span></a></div>
           </div>
         </div>
         <div class="contact-item">
@@ -693,18 +693,10 @@
 </section>
 
 <footer>
-  <p>© 2026 Bisma Zaman · Data Analyst · Lahore, Pakistan</p>
+  <p>© Bisma Zaman · Data Analyst · Lahore, Pakistan</p>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 80);
-      }
-    });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
-</body>
-</html>
+ 
